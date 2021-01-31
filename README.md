@@ -21,18 +21,15 @@ Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, temos:
 * Ferramentas:
   * Postman (v8.0.3),
   * Visual Studio Code (v1.52.1).
-  
 * Linguagem de Programação:
   * Node.js (v14.15.4),
   * HTML (5),
   * CSS (3).
-  
 * Gerenciador de pacotes:
     * npm (v6.14.10).
     * Dependências:
       * Express.js (v4.17.1),
       * Request (v2.88.2).
-  
 * API's consultadas:
   * OpenWeatherMap,
   * PokéAPI.
