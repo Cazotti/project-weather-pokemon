@@ -1,4 +1,4 @@
-## Desafio Pokemon para Desenvolvedores
+## Desafio Pokemon para Desenvolvedores :pokeball:
 
 ### Introdução ao Projeto
 O projeto situado neste repositório, trata-se de uma aplicação web, cujo principal objetivo é o de consumir duas API's de diferentes fontes de dados, com o intuito de agregar as informações e solucionar um problema. 
