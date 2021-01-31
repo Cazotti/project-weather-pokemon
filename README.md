@@ -61,6 +61,10 @@ Após ter configurado o ambiente, basta clonar(baixar) o repositório e executar
   ```
   $ npm start
   ```
+  ou tambem
+   ```
+  $ node server.js
+  ```
   4. Após executar o comando acima, a aplicação irá começar a rodar localmente na porta 3000. Dessa forma basta abrir seu navegador e acessar a url: `localhost:3000/`
  
   
