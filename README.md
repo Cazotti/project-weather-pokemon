@@ -6,13 +6,13 @@ O projeto situado neste repositório, trata-se de uma aplicação web, cujo prin
 #### O Problema
 De acordo com as condições climáticas de uma determinada cidade, deve ser exibido um Pokémon baseado em seu tipo (fogo, água, elétrico, etc) seguindo as seguintes regras:
 
-*  Lugares onde a temperatura for menor (<) que 5ºC, deve-se retornar um pokémon de gelo (ice).
-*  Lugares onde a temperatura estiver entre (>=) 5ºC e (<) 10ºC, deve-se retornar um pokémon do tipo água (water).
-*  Lugares onde a temperatura estiver entre (>=) 12ºC e (<) 15ºC, deve-se retornar um pokémon do tipo grama (grass).
-*  Lugares onde a temperatura estiver entre (>=) 15ºC e (<) 21ºC, deve-se retornar um pokémon do tipo terra (ground).
-*  Lugares onde a temperatura estiver entre (>=) 23ºC e (<) 27ºC, deve-se retornar um pokémon do tipo inseto (bug).
-*  Lugares onde a temperatura estiver entre (>=) 27ºC e 33ºC inclusive, deve-se retornar um pokémon do tipo pedra (rock).
-*  Lugares onde a temperatura for maior que 33ºC, deve-se retornar um pokémon do tipo fogo (fire).
+*  Lugares onde a temperatura for menor que 5ºC, deve-se retornar um pokémon de gelo.
+*  Lugares onde a temperatura estiver entre 5ºC e 10ºC, deve-se retornar um pokémon do tipo água.
+*  Lugares onde a temperatura estiver entre 12ºC e 15ºC, deve-se retornar um pokémon do tipo grama.
+*  Lugares onde a temperatura estiver entre 15ºC e 21ºC, deve-se retornar um pokémon do tipo terra.
+*  Lugares onde a temperatura estiver entre 23ºC e 27ºC, deve-se retornar um pokémon do tipo inseto.
+*  Lugares onde a temperatura estiver entre 27ºC e 33ºC inclusive, deve-se retornar um pokémon do tipo pedra.
+*  Lugares onde a temperatura for maior que 33ºC, deve-se retornar um pokémon do tipo fogo.
 
 Além disso, no caso em que esteja chovendo na região um pokémon elétrico deve ser retornado, independente da temperatura. E para qualquer outra temperatura, deve-se retornar um pokémon do tipo normal.
 
@@ -46,7 +46,17 @@ Como já mencionado anteriormente, foi utilizado o node.js e o npm para realizar
     `$ npm -v`
 
 #### Executando a Aplicação
-Após ter configurado o ambiente basta executarmos o projeto. Para isso basta seguir os passos abaixo:
-  1. Primeiramente devemos 
+Após ter configurado o ambiente, basta clonar(baixar) o repositório e executar o projeto. Para isso basta seguir os passos abaixo:
+  1. Primeiramente devemos clonar o repositório para nosso computador. Sinta-se avontade para escolher o método a ser utilizado;
+  2. Em seguida, devemos abrir o terminal em nosso computador, e acessar o diretório onde se encontra a copia do repositório baixado;
+  3. Por fim, basta executar a seguinte linha de código para iniciar nossa página web: 
+  ```
+  $ npm start
+  ```
+  4. Após executar o comando acima, a aplicação irá começar a rodar localmente na porta 3000. Dessa forma basta abrir seu navegador e acessar a url: 
+  ```
+  localhost:3000/
+  ```
+  
 
 
