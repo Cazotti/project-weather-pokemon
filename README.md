@@ -1,4 +1,4 @@
-## Desafio Pokemon para Desenvolvedores :pokeball:
+## Desafio Pokemon para Desenvolvedores
 
 ### Introdução ao Projeto
 O projeto situado neste repositório, trata-se de uma aplicação web, cujo principal objetivo é o de consumir duas API's de diferentes fontes de dados, com o intuito de agregar as informações e solucionar um problema. 
@@ -19,7 +19,8 @@ Além disso, no caso em que esteja chovendo na região um pokémon elétrico dev
 ### Tecnologias Utilizadas
 Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, temos:
 * Ferramentas:
-  * 
+  * Postman (v8.0.3),
+  * Visual Studio Code (v1.52.1).
   
 * Linguagem de Programação:
   * Node.js (v14.15.4),
