@@ -24,6 +24,8 @@ Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, temos:
   * CSS (3).
   
 * Frameworks:
+  * Gerenciador de pacotes:
+    * npm (v6.14.10).
   * Express.js (v4.17.1),
   * Request (v2.88.2).
   
