@@ -17,20 +17,16 @@ De acordo com as condições climáticas de uma determinada cidade, deve ser exi
 Além disso, no caso em que esteja chovendo na região um pokémon elétrico deve ser retornado, independente da temperatura. E para qualquer outra temperatura, deve-se retornar um pokémon do tipo normal.
 
 ### Tecnologias Utilizadas
-Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, foram utilizados 
-
+Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, temos:
 * Linguagem de Programação:
   * Node.js (v14.15.4),
   * HTML5,
   * CSS3.
-  
-* Frameworks
+* Frameworks:
   * Express.js (v4.17.1),
   * Request (v2.88.2).
-
-* API's
+* API's consultadas:
   * OpenWeatherMap,
   * PokéAPI.
-  
   
 ### Como executar a Aplicação
