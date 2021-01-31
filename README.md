@@ -1,4 +1,4 @@
-## Desafio Pokemon para Desenvolvedores ![](https://emojis.slackmojis.com/emojis/images/1609600917/11936/pokeball.png?1609600917)
+## Desafio Pokemon para Desenvolvedores ![](https://cdn.icon-icons.com/icons2/896/PNG/512/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png)
 
 ### Introdução ao Projeto
 O projeto situado neste repositório, trata-se de uma aplicação web, cujo principal objetivo é o de consumir duas API's de diferentes fontes de dados, com o intuito de agregar as informações e solucionar um problema. 
