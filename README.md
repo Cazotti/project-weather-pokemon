@@ -61,7 +61,7 @@ Após ter configurado o ambiente, basta clonar(baixar) o repositório e executar
   ```
   $ npm start
   ```
-  ou, tambem:
+  ou tambem, caso prefira:
    ```
   $ node server.js
   ```
