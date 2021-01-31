@@ -18,6 +18,9 @@ Além disso, no caso em que esteja chovendo na região um pokémon elétrico dev
 
 ### Tecnologias Utilizadas
 Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, temos:
+* Ferramentas:
+  * 
+  
 * Linguagem de Programação:
   * Node.js (v14.15.4),
   * HTML (5),
