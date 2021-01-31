@@ -1,4 +1,6 @@
-## Desafio Pokemon para Desenvolvedores ![](https://icon-icons.com/icons2/896/PNG/32/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png)
+## Desafio Pokemon para Desenvolvedores 
+![](https://icon-icons.com/icons2/896/PNG/32/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png)
+![](https://icon-icons.com/icons2/850/PNG/32/037_Pikachu_icon-icons.com_67297.png)
 
 ### Introdução ao Projeto
 O projeto situado neste repositório, trata-se de uma aplicação web, cujo principal objetivo é o de consumir duas API's de diferentes fontes de dados, com o intuito de agregar as informações e solucionar um problema. 
