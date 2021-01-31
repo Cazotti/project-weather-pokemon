@@ -20,11 +20,13 @@ Além disso, no caso em que esteja chovendo na região um pokémon elétrico dev
 Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, temos:
 * Linguagem de Programação:
   * Node.js (v14.15.4),
-  * HTML5,
-  * CSS3.
+  * HTML (5),
+  * CSS (3).
+  
 * Frameworks:
   * Express.js (v4.17.1),
   * Request (v2.88.2).
+  
 * API's consultadas:
   * OpenWeatherMap,
   * PokéAPI.
