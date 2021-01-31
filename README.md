@@ -6,15 +6,15 @@ O projeto situado neste repositório, trata-se de uma aplicação web, cujo prin
 #### O Problema
 De acordo com as condições climáticas de uma determinada cidade, deve ser exibido um Pokémon baseado em seu tipo (fogo, água, elétrico, etc) seguindo as seguintes regras:
 
-*  Lugares onde a temperatura for menor que 5ºC, deve-se retornar um pokémon de gelo.
-*  Lugares onde a temperatura estiver entre 5ºC e 10ºC, deve-se retornar um pokémon do tipo água.
-*  Lugares onde a temperatura estiver entre 12ºC e 15ºC, deve-se retornar um pokémon do tipo grama.
-*  Lugares onde a temperatura estiver entre 15ºC e 21ºC, deve-se retornar um pokémon do tipo terra.
-*  Lugares onde a temperatura estiver entre 23ºC e 27ºC, deve-se retornar um pokémon do tipo inseto.
-*  Lugares onde a temperatura estiver entre 27ºC e 33ºC inclusive, deve-se retornar um pokémon do tipo pedra.
-*  Lugares onde a temperatura for maior que 33ºC, deve-se retornar um pokémon do tipo fogo.
+*  Lugares onde a temperatura for menor que **5ºC**, deve-se retornar um pokémon de gelo.
+*  Lugares onde a temperatura estiver entre **5ºC** e **10ºC**, deve-se retornar um pokémon do tipo água.
+*  Lugares onde a temperatura estiver entre **12ºC** e **15ºC**, deve-se retornar um pokémon do tipo grama.
+*  Lugares onde a temperatura estiver entre **15ºC** e **21ºC**, deve-se retornar um pokémon do tipo terra.
+*  Lugares onde a temperatura estiver entre **23ºC** e **27ºC**, deve-se retornar um pokémon do tipo inseto.
+*  Lugares onde a temperatura estiver entre **27ºC** e **33ºC** inclusive, deve-se retornar um pokémon do tipo pedra.
+*  Lugares onde a temperatura for maior que **33ºC**, deve-se retornar um pokémon do tipo fogo.
 
-Além disso, no caso em que esteja chovendo na região um pokémon elétrico deve ser retornado, independente da temperatura. E para qualquer outra temperatura, deve-se retornar um pokémon do tipo normal.
+Além disso, no caso em que esteja **chovendo** na região um pokémon elétrico deve ser retornado, independente da temperatura. E para qualquer outra temperatura, deve-se retornar um pokémon do tipo normal.
 
 ### Tecnologias Utilizadas
 Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, temos:
