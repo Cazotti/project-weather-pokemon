@@ -23,14 +23,26 @@ Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, temos:
   * HTML (5),
   * CSS (3).
   
-* Frameworks:
-  * Gerenciador de pacotes:
+* Gerenciador de pacotes:
     * npm (v6.14.10).
-  * Express.js (v4.17.1),
-  * Request (v2.88.2).
+    * Dependências:
+      * Express.js (v4.17.1),
+      * Request (v2.88.2).
   
 * API's consultadas:
   * OpenWeatherMap,
   * PokéAPI.
   
 ### Como executar a Aplicação
+#### Configurando o Ambiente
+Como já mencionado anteriormente, foi utilizado o node.js e o npm para realizar a implementação desse projeto. Deste modo é necessário tê-los instalados em sua máquina. Para isso basta seguir os passos abaixos, ou caso já possua, basta seguir para o próximo tópico.
+  1. Primeiramente, devemos saber que ao instalar o node.js o npm é instalado junstamente. Dessa forma basta acessar o site do [Node.js](https://nodejs.org/en/download/)
+  2. Após isso basta selecionar o arquivo LTS de acordo com seu Sistema Operacional e realizar o download;
+  3. Em seguida, devemos executar o arquivo baixado, onde se iniciará a instalação;
+  4. Por ultimo, porêm opcional, podemos verificar se a instalação foi realizada com sucesso e qual versão foi instalada através do prompt de comando:
+    1. Para verificar a versão do Node.js, execute a linha de comando:
+    `<node -v>`
+    2. Para verificar a versão do npm, execute a linha de comando:
+    `<npm -v>`
+
+#### Finalmente Executando
