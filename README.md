@@ -40,9 +40,9 @@ Como já mencionado anteriormente, foi utilizado o node.js e o npm para realizar
   2. Após isso basta selecionar o arquivo LTS de acordo com seu Sistema Operacional e realizar o download;
   3. Em seguida, devemos executar o arquivo baixado, onde se iniciará a instalação;
   4. Por ultimo, porêm opcional, podemos verificar se a instalação foi realizada com sucesso e qual versão foi instalada através do prompt de comando:
-    1. Para verificar a versão do Node.js, execute a linha de comando:
-    `<node -v>`
-    2. Para verificar a versão do npm, execute a linha de comando:
-    `<npm -v>`
+     1. Para verificar a versão do Node.js, execute a linha de comando:
+    `$ node -v`
+     2. Para verificar a versão do npm, execute a linha de comando:
+    `$ npm -v`
 
 #### Finalmente Executando
