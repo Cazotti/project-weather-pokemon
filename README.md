@@ -41,9 +41,13 @@ Como já mencionado anteriormente, foi utilizado o node.js e o npm para realizar
   3. Em seguida, devemos executar o arquivo baixado, onde se iniciará a instalação;
   4. Por ultimo, porêm opcional, podemos verificar se a instalação foi realizada com sucesso e qual versão foi instalada através do terminal:
      1. Para verificar a versão do Node.js, execute a linha de comando:
-    `$ node -v`
+     ```
+     $ node -v
+     ```
      2. Para verificar a versão do npm, execute a linha de comando:
-    `$ npm -v`
+     ```
+     $ npm -v
+     ```
 
 #### Executando a Aplicação
 Após ter configurado o ambiente, basta clonar(baixar) o repositório e executar o projeto. Para isso basta seguir os passos abaixo:
@@ -53,10 +57,8 @@ Após ter configurado o ambiente, basta clonar(baixar) o repositório e executar
   ```
   $ npm start
   ```
-  4. Após executar o comando acima, a aplicação irá começar a rodar localmente na porta 3000. Dessa forma basta abrir seu navegador e acessar a url: 
-  ```
-  localhost:3000/
-  ```
+  4. Após executar o comando acima, a aplicação irá começar a rodar localmente na porta 3000. Dessa forma basta abrir seu navegador e acessar a url: `localhost:3000/`
+ 
   
 
 
