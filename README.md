@@ -1,7 +1,7 @@
 ## Pokémon Challenge for Developers ![](https://icon-icons.com/icons2/896/PNG/32/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png)![](https://icon-icons.com/icons2/851/PNG/32/pikachu_icon-icons.com_67535.png)
 
 ### Introduction to the Project 
-The project located in this repository, is a web application, whose main objective is to consume two APIs from different data sources, in order to aggregate information and solve a given problem. 
+The project located in this repository, is a web application, whose main objective is to consume two APIs from different data sources, for aggregate information and solve a given problem. 
 
 #### The Problem
 According to the climatic conditions of a given city, a Pokémon based on its type must be displayed, following the following rules: 
@@ -39,7 +39,7 @@ Among the technologies used during the development of the project, we have:
 As previously mentioned, node.js and npm were used to implement this project. So it is necessary to have them installed on your machine. To do this, just follow the steps below, or if you already have them, just go to the next topic (Runnig the Application). 
   1. First, we must know that when installing node.js, npm is installed together. That way just access the website  [Node.js](https://nodejs.org/en/download/)
   2. After that just select the LTS file according to your Operating System and download it;
-  3. Then, we must execute the downloaded file, where the installation will start ;
+  3. Then, we must execute the downloaded file, where the installation will start;
   4. Finally, however optional, we can check if the installation was successful and which version was installed via the terminal: 
      1. To check the version of Node.js, run the command line:
      ```
