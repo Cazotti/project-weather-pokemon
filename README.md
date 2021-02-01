@@ -51,18 +51,18 @@ As previously mentioned, node.js and npm were used to implement this project. So
      ```
 
 #### Runnig the Application
-Após ter configurado o ambiente, basta clonar(baixar) o repositório e executar o projeto. Para isso basta seguir os passos abaixo:
-  1. Primeiramente devemos clonar o repositório para nosso computador. Sinta-se avontade para escolher o método a ser utilizado;
-  2. Em seguida, devemos abrir o terminal em nosso computador, e acessar o diretório onde se encontra a copia do repositório baixado;
-  3. Por fim, basta executar a seguinte linha de código para iniciar nossa página web: 
+After setting up the environment, just clone (download) the repository and run the project. To do this, just follow the steps below: 
+  1. First, we must clone the repository for our computer. Feel free to choose the method to be used;
+  2. Then, we must open the terminal on our computer, and access the directory where the copy of the downloaded repository is;
+  3. Finally, just run the following line of code to start our website:  
   ```
   $ npm start
   ```
-  ou tambem, caso prefira:
+  or also, if you prefer: 
    ```
   $ node server.js
   ```
-  4. Após executar o comando acima, a aplicação irá começar a rodar localmente na porta 3000. Dessa forma basta abrir seu navegador e acessar a url: `localhost:3000/`
+  4. After executing the above command, the application will start to run locally on port 3000. That way just open your browser and access the url:`localhost:3000/`
  
   
 
