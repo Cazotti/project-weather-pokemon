@@ -1,10 +1,10 @@
 ## Pokémon Challenge for Developers ![](https://icon-icons.com/icons2/896/PNG/32/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png)![](https://icon-icons.com/icons2/851/PNG/32/pikachu_icon-icons.com_67535.png)
 
 ### Introduction to the Project 
-O projeto situado neste repositório, trata-se de uma aplicação web, cujo principal objetivo é o de consumir duas API's de diferentes fontes de dados, com o intuito de agregar as informações e solucionar um problema. 
+The project located in this repository, is a web application, whose main objective is to consume two APIs from different data sources, in order to aggregate information and solve a given problem. 
 
 #### The Problem
-De acordo com as condições climáticas de uma determinada cidade, deve ser exibido um Pokémon baseado em seu tipo (fogo, água, elétrico, etc) seguindo as seguintes regras:
+According to the climatic conditions of a given city, a Pokémon based on its type must be displayed, following the following rules: 
 
 *  Lugares onde a temperatura for menor que **5ºC**, deve-se retornar um pokémon de gelo.
 *  Lugares onde a temperatura estiver entre **5ºC** e **10ºC**, deve-se retornar um pokémon do tipo água.
@@ -14,7 +14,7 @@ De acordo com as condições climáticas de uma determinada cidade, deve ser exi
 *  Lugares onde a temperatura estiver entre **27ºC** e **33ºC** inclusive, deve-se retornar um pokémon do tipo pedra.
 *  Lugares onde a temperatura for maior que **33ºC**, deve-se retornar um pokémon do tipo fogo.
 
-Além disso, no caso em que esteja **chovendo** na região um pokémon elétrico deve ser retornado, independente da temperatura. E para qualquer outra temperatura, deve-se retornar um pokémon do tipo normal.
+In addition, in case it is **raining** in the region an electric pokémon must be returned, regardless of the temperature. And for any other temperature, a normal type Pokémon should be returned. 
 
 ### Technologies Used 
 Among the technologies used during the development of the project, we have: 
@@ -30,7 +30,7 @@ Among the technologies used during the development of the project, we have:
     * Dependencies:
       * Express.js (v4.17.1),
       * Request (v2.88.2).
-* Consulted API's:
+* Consulted APIs:
   * OpenWeatherMap,
   * PokéAPI.
   
