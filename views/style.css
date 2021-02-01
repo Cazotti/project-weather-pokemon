@@ -1,0 +1,228 @@
+body {
+  color: #333333;
+  max-width: 1000px;
+  margin-left: 0px;
+  padding: 0 16px;
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(https://www.teahub.io/photos/full/96-968456_pokemon-ash-hd.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transform: scale(3.2);
+  transform-origin: 0 0;
+}
+.search-container{
+  width: 800px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 35px;
+  border-radius: 30px;
+}
+input#search-bar{
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline: none;
+  border-radius: 30px;
+ }
+ input#search-bar:focus{
+  border: 1px solid #008ABF;
+  transition: 0.35s ease;
+  color: #008ABF;   
+  border-radius: 30px;
+ }
+ input#search-bar:focus:-webkit-input-placeholder{
+  transition: opacity 0.45s ease; 
+  opacity: 0;
+  border-radius: 30px;
+ }
+ input#search-bar:focus:-moz-placeholder {
+  transition: opacity 0.45s ease; 
+  opacity: 0;
+  border-radius: 30px;
+ }
+ input#search-bar:focus:-ms-placeholder {
+  transition: opacity 0.45s ease; 
+  opacity: 0;
+  border-radius: 30px;
+ } 
+.search-icon{
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -62px;
+  right: -45px;
+}
+.weather-info{
+  margin-top: 100px;
+}
+div.widget-temp{
+  position: relative;
+  width: 790px;
+  height: 150px;
+  margin: 10px auto;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  background-color: #fff;
+}
+div.date{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+}
+div.name-city{
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba(0,0,0,0.7);
+}
+div.temp{
+  font-size: 61px;
+  color: rgba(0,0,0,0.9);
+  margin-top: 20px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.temperature{
+  margin-left: 15px;
+}
+.image-pokemon{
+  position: block;
+  width: 63%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+.name-pokemon{
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba(0,0,0,0.7);
+}
+table.table-stats {
+  margin-left: 0;
+  margin-right: 0;
+}
+.grid.boxed article.pokemon-stats {
+  overflow: auto;
+}
+.grid.boxed article.pokemon-stats .table-stats {
+  border: none;
+}
+.grid.boxed article.pokemon-stats .table-stats td {
+  padding: 5px 6px;
+}
+.grid.boxed article.pokemon-stats .table-stats tr:nth-child(2n) td {
+  background: 0 0;
+}
+.grid.boxed article.pokemon-stats .table-stats td:nth-child(1) {
+  font-size: 15px;
+  color: black;
+}
+.grid.boxed article.pokemon-stats .table-stats td:nth-child(2) {
+  font-size: 20px;
+}
+.grid.boxed article.pokemon-stats .table-stats td:nth-child(n + 2) {
+  border-left: 1px solid #eee;
+}
+.grid.boxed article.pokemon-stats .table-stats td span {
+  font-size: 20px;
+  color: black;
+}
+.grid.boxed article.pokemon-stats .table-stats td strong {
+  color: #222;
+}
+.grid.boxed article.pokemon-stats .table-stats td small {
+  font-size: 20px;
+  color: black;
+}
+.grid.boxed article.pokemon-stats h3 {
+  margin-top: 32px;
+}
+.grid.boxed article.pokemon-stats a {
+  font-size: 20px;
+  margin-left: 8px;
+}
+.grid.boxed article.pokemon-stats .table-stats.bars {
+  width: auto;
+  margin: 22px auto 36px;
+}
+.grid.boxed article.pokemon-stats .table-stats.bars td {
+  border-left: none !important;
+}
+.grid.boxed article.pokemon-stats .table-stats.bars td:first-child {
+  padding-right: 24px !important;
+}
+.grid.boxed article.pokemon-stats .table-stats.bars td:last-child {
+  text-align: right;
+  padding-left: 12px !important;
+}
+.grid.boxed article.pokemon-stats .bars .bar {
+  height: 8px;
+  width: 500px;
+  position: relative;
+  background: #eaeaea;
+  border-radius: 5px;
+}
+.grid.boxed article.pokemon-stats .bars .bar .inner {
+  position: absolute;
+  height: 100%;
+  background: #aaa;
+  border-radius: 5px;
+  max-width: 100%;
+}
+.grid.boxed article.pokemon-stats .bars .bar.sta .inner {
+  background: red;
+}
+div.title{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+}
+.conteudo-left{
+  background-color: #fff;
+  float: left;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+}
+.conteudo-right{
+  background-color: #fff;
+  position: relative;
+  width: 370px;
+  height: 250px;
+  margin: 5px auto;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  margin-left: 420px;
+}
+.pokemon-stats{
+  position: relative;
+  width: 790px;
+  height: 260px;
+  margin: 10px auto;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  background-color: #fff;
+}
+.stats{
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba(0,0,0,0.7);
+}

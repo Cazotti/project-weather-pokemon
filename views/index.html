@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Pokemon Weather</title>
+        <link rel="stylesheet" href="style.css"/> 
+    </head>
+    <body>
+        <form class="search-container"> 
+            <input  type="text" id="search-bar" placeholder="Enter a city. Ex.: London">
+            <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+            <div class="widget-temp">
+                <div class="date"></div>
+                <div class="name-city">~~~~</div><div class="weather">~~~~</div>
+                <div class="temp"><img id="weather-condition" width="60"><a class="temperature">~~~</a></div>
+            </div>
+            <div class="conteudo-left">
+                <div class="title">Pokemon</div>
+                <div class="name-pokemon">~~~~</div>
+                <img class="image-pokemon" id="pokemon-image" src="https://567.cdn.simplo7.net/static/567/sku/156399382547374.png">
+            </div>
+            <div class="conteudo-right">
+                <div class="stats">Information</div>
+                <p class="type-pokemon">Type: ~~~~~~</p>
+                <p class="height-pokemon">Height: ~~~~~~</p>
+                <p class="weight-pokemon">Weight: ~~~~~~</p>
+                <p class="base-experience-pokemon">Base Experience: ~~~~~~</p>
+            </div>
+            <div class="grid boxed">
+                <article class="pokemon-stats">
+                    <table class="table-stats bars">
+                            <div class="stats">Stats</div>
+                            <tr><td>HP</td><td><div class="bar sta"><div id="hp" class="inner"></div></div></td><td class="hp-stat">00</td></tr>
+                            <tr><td>Attack</td><td><div class="bar sta"><div id="attack" class="inner"></div></div></td><td class="attack-stat">00</td></tr>
+                            <tr><td>Defense</td><td><div class="bar sta"><div id="defense" class="inner"></div></div></td><td class="defense-stat">00</td></tr>
+                            <tr><td>Special Attack</td><td><div class="bar sta"><div id="special-attack" class="inner"></div></div></td><td class="special-attack-stat">00</td></tr>
+                            <tr><td>Special Defense</td><td><div class="bar sta"><div id="special-defense" class="inner"></div></div></td><td class="special-defense-stat">00</td></tr>
+                            <tr><td>Speed</td><td><div class="bar sta"><div id="speed" class="inner"></div></div></td><td class="speed-stat">00</td></tr>
+                    </table>
+                </article>
+            </div>
+        </form>
+        <script src="app.js"></script>
+    </body>
+</html>
