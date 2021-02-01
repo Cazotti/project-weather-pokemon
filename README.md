@@ -10,7 +10,7 @@ According to the climatic conditions of a given city, a Pokémon based on its ty
 *  Places where the temperature is between **5ºC** and **10ºC**, a water type Pokémon should be returned. 
 *  Places where the temperature is between **12ºC** and **15ºC**, a grass type Pokémon should be returned. 
 *  Places where the temperature is between **15ºC** and **21ºC**, a land type Pokémon should be returned. 
-*  Places where the temperature is between **23ºC** and **27ºC**, an insect type Pokémon should be returned.
+*  Places where the temperature is between **23ºC** and **27ºC**, a bug type Pokémon should be returned.
 *  Places where the temperature is between **27ºC** and **33ºC** inclusive, a stone type Pokémon should be returned. 
 *  Places where the temperature is higher than **33ºC**, a fire type Pokémon should be returned. 
 
