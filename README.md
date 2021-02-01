@@ -1,69 +1,69 @@
-## Pokémon Challenge for Developers ![](https://icon-icons.com/icons2/896/PNG/32/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png)![](https://icon-icons.com/icons2/851/PNG/32/pikachu_icon-icons.com_67535.png)
+## Desafio Pokémon para Desenvolvedores ![](https://icon-icons.com/icons2/896/PNG/32/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png)![](https://icon-icons.com/icons2/851/PNG/32/pikachu_icon-icons.com_67535.png)
 
-### Introduction to the Project 
-The project located in this repository, is a web application, whose main objective is to consume two APIs from different data sources, for aggregate information and solve a given problem. 
+### Introdução ao Projeto
+O projeto situado neste repositório, trata-se de uma aplicação web, cujo principal objetivo é o de consumir duas API's de diferentes fontes de dados, com o intuito de agregar as informações e solucionar um problema. 
 
-#### The Problem
-According to the climatic conditions of a given city, a Pokémon based on its type must be displayed, following the following rules: 
+#### O Problema
+De acordo com as condições climáticas de uma determinada cidade, deve ser exibido um Pokémon baseado em seu tipo (fogo, água, elétrico, etc) seguindo as seguintes regras:
 
-*  Places where the temperature is below **5ºC**, an ice pokémon must be returned. 
-*  Places where the temperature is between **5ºC** and **10ºC**, a water type Pokémon should be returned. 
-*  Places where the temperature is between **12ºC** and **15ºC**, a grass type Pokémon should be returned. 
-*  Places where the temperature is between **15ºC** and **21ºC**, a land type Pokémon should be returned. 
-*  Places where the temperature is between **23ºC** and **27ºC**, a bug type Pokémon should be returned.
-*  Places where the temperature is between **27ºC** and **33ºC** inclusive, a stone type Pokémon should be returned. 
-*  Places where the temperature is higher than **33ºC**, a fire type Pokémon should be returned. 
+*  Lugares onde a temperatura for menor que **5ºC**, deve-se retornar um pokémon de gelo.
+*  Lugares onde a temperatura estiver entre **5ºC** e **10ºC**, deve-se retornar um pokémon do tipo água.
+*  Lugares onde a temperatura estiver entre **12ºC** e **15ºC**, deve-se retornar um pokémon do tipo grama.
+*  Lugares onde a temperatura estiver entre **15ºC** e **21ºC**, deve-se retornar um pokémon do tipo terra.
+*  Lugares onde a temperatura estiver entre **23ºC** e **27ºC**, deve-se retornar um pokémon do tipo inseto.
+*  Lugares onde a temperatura estiver entre **27ºC** e **33ºC** inclusive, deve-se retornar um pokémon do tipo pedra.
+*  Lugares onde a temperatura for maior que **33ºC**, deve-se retornar um pokémon do tipo fogo.
 
-In addition, in case it is **raining** in the region an electric pokémon must be returned, regardless of the temperature. And for any other temperature, a normal type Pokémon should be returned. 
+Além disso, no caso em que esteja **chovendo** na região um pokémon elétrico deve ser retornado, independente da temperatura. E para qualquer outra temperatura, deve-se retornar um pokémon do tipo normal.
 
-### Technologies Used 
-Among the technologies used during the development of the project, we have: 
-* Tols:
+### Tecnologias Utilizadas
+Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, temos:
+* Ferramentas:
   * Postman (v8.0.3),
   * Visual Studio Code (v1.52.1).
-* Programming languages:
+* Linguagem de Programação:
   * Node.js (v14.15.4),
   * HTML (5),
   * CSS (3).
-* Package Manager:
+* Gerenciador de pacotes:
     * npm (v6.14.10).
-    * Dependencies:
+    * Dependências:
       * Express.js (v4.17.1),
       * Request (v2.88.2).
-* Consulted APIs:
+* API's consultadas:
   * OpenWeatherMap,
   * PokéAPI.
   
-### Setting up the environment and Running the application 
-#### Setting up the environment
-As previously mentioned, node.js and npm were used to implement this project. So it is necessary to have them installed on your machine. To do this, just follow the steps below, or if you already have them, just go to the next topic (Runnig the Application). 
-  1. First, we must know that when installing node.js, npm is installed together. That way just access the website  [Node.js](https://nodejs.org/en/download/)
-  2. After that just select the LTS file according to your Operating System and download it;
-  3. Then, we must execute the downloaded file, where the installation will start;
-  4. Finally, however optional, we can check if the installation was successful and which version was installed via the terminal: 
-     1. To check the version of Node.js, run the command line:
+### Configurando o Ambiente e Executando a Aplicação
+#### Configurando o Ambiente
+Como já mencionado anteriormente, foi utilizado o node.js e o npm para realizar a implementação desse projeto. Deste modo é necessário tê-los instalados em sua máquina. Para isso basta seguir os passos abaixos, ou caso já possua, basta seguir para o próximo tópico.
+  1. Primeiramente, devemos saber que ao instalar o node.js o npm é instalado junstamente. Dessa forma basta acessar o site do [Node.js](https://nodejs.org/en/download/)
+  2. Após isso basta selecionar o arquivo LTS de acordo com seu Sistema Operacional e realizar o download;
+  3. Em seguida, devemos executar o arquivo baixado, onde se iniciará a instalação;
+  4. Por ultimo, porêm opcional, podemos verificar se a instalação foi realizada com sucesso e qual versão foi instalada através do terminal:
+     1. Para verificar a versão do Node.js, execute a linha de comando:
      ```
      $ node -v
      ```
-     2. To check the version of npm, run the command line
+     2. Para verificar a versão do npm, execute a linha de comando:
      ```
      $ npm -v
      ```
 
-#### Runnig the Application
-After setting up the environment, just clone (download) the repository and run the project. To do this, just follow the steps below: 
-  1. First, we must clone the repository for our computer. Feel free to choose the method to be used;
-  2. Then, we must open the terminal on our computer, and access the directory where the copy of the downloaded repository is;
-  3. Finally, just run the following line of code to start our website:  
+#### Executando a Aplicação
+Após ter configurado o ambiente, basta clonar(baixar) o repositório e executar o projeto. Para isso basta seguir os passos abaixo:
+  1. Primeiramente devemos clonar o repositório para nosso computador. Sinta-se avontade para escolher o método a ser utilizado;
+  2. Em seguida, devemos abrir o terminal em nosso computador, e acessar o diretório onde se encontra a copia do repositório baixado;
+  3. Por fim, basta executar a seguinte linha de código para iniciar nossa página web: 
   ```
   $ npm start
   ```
-  or also, if you prefer: 
+  ou tambem, caso prefira:
    ```
   $ node server.js
   ```
-  4. After executing the above command, the application will start to run locally on port 3000. That way just open your browser and access the url:`localhost:3000/`
+  4. Após executar o comando acima, a aplicação irá começar a rodar localmente na porta 3000. Dessa forma basta abrir seu navegador e acessar a url: `localhost:3000/`
  
-  
+
 
 
