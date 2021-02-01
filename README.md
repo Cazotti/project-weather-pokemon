@@ -34,23 +34,23 @@ Among the technologies used during the development of the project, we have:
   * OpenWeatherMap,
   * PokéAPI.
   
-### Configurando o Ambiente e Executando a Aplicação
-#### Configurando o Ambiente
-Como já mencionado anteriormente, foi utilizado o node.js e o npm para realizar a implementação desse projeto. Deste modo é necessário tê-los instalados em sua máquina. Para isso basta seguir os passos abaixos, ou caso já possua, basta seguir para o próximo tópico.
-  1. Primeiramente, devemos saber que ao instalar o node.js o npm é instalado junstamente. Dessa forma basta acessar o site do [Node.js](https://nodejs.org/en/download/)
-  2. Após isso basta selecionar o arquivo LTS de acordo com seu Sistema Operacional e realizar o download;
-  3. Em seguida, devemos executar o arquivo baixado, onde se iniciará a instalação;
-  4. Por ultimo, porêm opcional, podemos verificar se a instalação foi realizada com sucesso e qual versão foi instalada através do terminal:
-     1. Para verificar a versão do Node.js, execute a linha de comando:
+### Setting up the environment and Running the application 
+#### Setting up the environment
+As previously mentioned, node.js and npm were used to implement this project. So it is necessary to have them installed on your machine. To do this, just follow the steps below, or if you already have them, just go to the next topic (Runnig the Application). 
+  1. First, we must know that when installing node.js, npm is installed together. That way just access the website  [Node.js](https://nodejs.org/en/download/)
+  2. After that just select the LTS file according to your Operating System and download it;
+  3. Then, we must execute the downloaded file, where the installation will start ;
+  4. Finally, however optional, we can check if the installation was successful and which version was installed via the terminal: 
+     1. To check the version of Node.js, run the command line:
      ```
      $ node -v
      ```
-     2. Para verificar a versão do npm, execute a linha de comando:
+     2. To check the version of npm, run the command line
      ```
      $ npm -v
      ```
 
-#### Executando a Aplicação
+#### Runnig the Application
 Após ter configurado o ambiente, basta clonar(baixar) o repositório e executar o projeto. Para isso basta seguir os passos abaixo:
   1. Primeiramente devemos clonar o repositório para nosso computador. Sinta-se avontade para escolher o método a ser utilizado;
   2. Em seguida, devemos abrir o terminal em nosso computador, e acessar o diretório onde se encontra a copia do repositório baixado;
