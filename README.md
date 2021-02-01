@@ -54,7 +54,10 @@ Como já mencionado anteriormente, foi utilizado o node.js e o npm para realizar
 Após ter configurado o ambiente, basta clonar(baixar) o repositório e executar o projeto. Para isso basta seguir os passos abaixo:
   1. Primeiramente devemos clonar o repositório para nosso computador. Sinta-se avontade para escolher o método a ser utilizado;
   2. Em seguida, devemos abrir o terminal em nosso computador, e acessar o diretório onde se encontra a copia do repositório baixado;
-  3. Caso seja a primeira vez ...
+  3. Caso esta seja a sua primeira vez executando a aplicação, será necessário instalar algumas dependências. Para isso basta executar a linha de código abaixo. Caso não seja sua primeira vez, basta pular para o tópico 4.
+  ```
+  $ npm install express nodemon request
+  ```
   4. Por fim, basta executar a seguinte linha de código para iniciar nossa página web: 
   ```
   $ npm start
