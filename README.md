@@ -6,13 +6,13 @@ The project located in this repository, is a web application, whose main objecti
 #### The Problem
 According to the climatic conditions of a given city, a Pokémon based on its type must be displayed, following the following rules: 
 
-*  Lugares onde a temperatura for menor que **5ºC**, deve-se retornar um pokémon de gelo.
-*  Lugares onde a temperatura estiver entre **5ºC** e **10ºC**, deve-se retornar um pokémon do tipo água.
-*  Lugares onde a temperatura estiver entre **12ºC** e **15ºC**, deve-se retornar um pokémon do tipo grama.
-*  Lugares onde a temperatura estiver entre **15ºC** e **21ºC**, deve-se retornar um pokémon do tipo terra.
-*  Lugares onde a temperatura estiver entre **23ºC** e **27ºC**, deve-se retornar um pokémon do tipo inseto.
-*  Lugares onde a temperatura estiver entre **27ºC** e **33ºC** inclusive, deve-se retornar um pokémon do tipo pedra.
-*  Lugares onde a temperatura for maior que **33ºC**, deve-se retornar um pokémon do tipo fogo.
+*  Places where the temperature is less than **5ºC**, an ice pokémon must be returned. 
+*  Places where the temperature is between **5ºC** and **10ºC**, a water type Pokémon should be returned. 
+*  Places where the temperature is between **12ºC** and **15ºC**, a grass type Pokémon should be returned. 
+*  Places where the temperature is between **15ºC** and **21ºC**, a land type Pokémon should be returned. 
+*  Places where the temperature is between **23ºC** and **27ºC**, an insect type Pokémon should be returned.
+*  Places where the temperature is between **27ºC** and **33ºC** inclusive, a stone type Pokémon should be returned. 
+*  Places where the temperature is higher than **33ºC**, a fire type Pokémon should be returned. 
 
 In addition, in case it is **raining** in the region an electric pokémon must be returned, regardless of the temperature. And for any other temperature, a normal type Pokémon should be returned. 
 
@@ -21,7 +21,7 @@ Among the technologies used during the development of the project, we have:
 * Tols:
   * Postman (v8.0.3),
   * Visual Studio Code (v1.52.1).
-* Programming language:
+* Programming languages:
   * Node.js (v14.15.4),
   * HTML (5),
   * CSS (3).
