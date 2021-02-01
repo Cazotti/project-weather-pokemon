@@ -1,9 +1,9 @@
-## Desafio Pokemon para Desenvolvedores ![](https://icon-icons.com/icons2/896/PNG/32/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png)![](https://icon-icons.com/icons2/851/PNG/32/pikachu_icon-icons.com_67535.png)
+## Pokémon Challenge for Developers ![](https://icon-icons.com/icons2/896/PNG/32/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png)![](https://icon-icons.com/icons2/851/PNG/32/pikachu_icon-icons.com_67535.png)
 
-### Introdução ao Projeto
+### Introduction to the Project 
 O projeto situado neste repositório, trata-se de uma aplicação web, cujo principal objetivo é o de consumir duas API's de diferentes fontes de dados, com o intuito de agregar as informações e solucionar um problema. 
 
-#### O Problema
+#### The Problem
 De acordo com as condições climáticas de uma determinada cidade, deve ser exibido um Pokémon baseado em seu tipo (fogo, água, elétrico, etc) seguindo as seguintes regras:
 
 *  Lugares onde a temperatura for menor que **5ºC**, deve-se retornar um pokémon de gelo.
@@ -16,21 +16,21 @@ De acordo com as condições climáticas de uma determinada cidade, deve ser exi
 
 Além disso, no caso em que esteja **chovendo** na região um pokémon elétrico deve ser retornado, independente da temperatura. E para qualquer outra temperatura, deve-se retornar um pokémon do tipo normal.
 
-### Tecnologias Utilizadas
-Dentre as tecnologias utilizadas durante o desenvolvimento do projeto, temos:
-* Ferramentas:
+### Technologies Used 
+Among the technologies used during the development of the project, we have: 
+* Tols:
   * Postman (v8.0.3),
   * Visual Studio Code (v1.52.1).
-* Linguagem de Programação:
+* Programming language:
   * Node.js (v14.15.4),
   * HTML (5),
   * CSS (3).
-* Gerenciador de pacotes:
+* Package Manager:
     * npm (v6.14.10).
-    * Dependências:
+    * Dependencies:
       * Express.js (v4.17.1),
       * Request (v2.88.2).
-* API's consultadas:
+* Consulted API's:
   * OpenWeatherMap,
   * PokéAPI.
   
