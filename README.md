@@ -6,7 +6,7 @@ The project located in this repository, is a web application, whose main objecti
 #### The Problem
 According to the climatic conditions of a given city, a Pokémon based on its type must be displayed, following the following rules: 
 
-*  Places where the temperature is below than **5ºC**, an ice pokémon must be returned. 
+*  Places where the temperature is below **5ºC**, an ice pokémon must be returned. 
 *  Places where the temperature is between **5ºC** and **10ºC**, a water type Pokémon should be returned. 
 *  Places where the temperature is between **12ºC** and **15ºC**, a grass type Pokémon should be returned. 
 *  Places where the temperature is between **15ºC** and **21ºC**, a land type Pokémon should be returned. 
